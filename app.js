@@ -7,6 +7,7 @@ var express = require('express');
 var https = require('https');
 var xml2js = require('xml2js');
 var app = express();
+var gzippo = require('gzippo');
 var port = 5000;
 
 /*
@@ -17,6 +18,7 @@ var hbs;
 
 // For gzip compression
 app.use(express.compress());
+app.use(gzippo.staticGzip('' + __dirname));
 
 // See http://stackoverflow.com/questions/5710358/how-to-retrieve-post-query-parameters-in-express
 app.use(express.json());       // to support JSON-encoded bodies
