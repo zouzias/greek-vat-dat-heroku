@@ -7,7 +7,7 @@ var express = require('express');
 var https = require('https');
 var xml2js = require('xml2js');
 var app = express();
-var port = 3000;
+var port = 5000;
 
 /*
  * Use Handlebars for templating
