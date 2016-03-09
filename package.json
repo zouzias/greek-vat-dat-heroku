@@ -5,18 +5,17 @@
     "url": "https://github.com/dspinellis/greek-vat-data"
   },
   "description": "An express Node.js app wrapping greek vat open data SOAP service",
-  "email": "zouzias@gmail.com",
+  "email" : "zouzias@gmail.com",
   "version": "0.0.1",
   "author": "Anastasios Zouzias",
   "contributors": [
-    "Anastasios Zouzias <zouzias@gmail.com> (http//www.zouzias.org)"
+      "Anastasios Zouzias <zouzias@gmail.com> (http//www.zouzias.org)"
   ],
-  "license": "Apache-2.0",
+  "license" : "Apache-2.0",
   "private": true,
   "dependencies": {
     "express": "~3.4.0",
     "express3-handlebars": "0.4.x",
-    "gzippo": "^0.2.0",
     "https": "^1.0.0",
     "soap": "^0.13.0",
     "xml2js": "^0.4.16"
